@@ -1,0 +1,8 @@
+ClarEval Experiment evaluation summary
+============================================================
+- OVERALL: n=30, completion=0.662, efficiency=1.255, ATC=2.967, sim_answered=1.833, sim_answer_rate=0.735, unresolved=0.133
+
+By task group
+- Ambiguous Terms / easy: n=10, completion=0.572, efficiency=0.873, ATC=3.800, sim_answered=2.300, sim_answer_rate=0.697, unresolved=0.300
+- Missing Goal / medium: n=10, completion=0.658, efficiency=1.067, ATC=2.700, sim_answered=1.800, sim_answer_rate=0.733, unresolved=0.100
+- Missing Premises / hard: n=10, completion=0.755, efficiency=1.825, ATC=2.400, sim_answered=1.400, sim_answer_rate=0.775, unresolved=0.000

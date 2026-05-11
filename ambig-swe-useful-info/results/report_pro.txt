@@ -1,0 +1,14 @@
+Useful-info recovery evaluation over 10 tasks  (max_turns=5, censored TTR=6;  TTR derived from useful-info coverage: first turn coverage=1.0)
+
+Metric                           BED    Direct    Delta (BED-Direct)
+--------------------------  --------  --------  ----------------
+ttr_mean                        6.00      4.40            +1.600    (lower is better)
+recovery_rate                  0.000     0.500            -0.500
+useful_info_coverage           0.220     0.670            -0.450
+atc_mean                        5.00      3.90            +1.100    (lower is better)
+idk_per_task                    4.30      2.00            +2.300
+
+Useful-info coverage curve (cumulative ratio at each turn)
+turn           1       2       3       4       5
+BED        0.058   0.175   0.220   0.220   0.220
+Direct     0.312   0.460   0.617   0.637   0.670

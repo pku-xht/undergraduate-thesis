@@ -1,0 +1,54 @@
+{
+  "data_path": "D:\\PKU\\42\\毕业论文\\undergraduate-thesis\\experiments\\reqelicitgym\\ReqElicitGym_10.jsonl",
+  "max_tasks": 10,
+  "step_budget_policy": "per_task_hidden_requirement_count",
+  "num_hypotheses": 4,
+  "num_candidates": 4,
+  "resume": true,
+  "task_names": [
+    "Stock Report Generation System",
+    "Texas Hold'em Online Poker Platform",
+    "Credit Repair Lead Generation Website",
+    "customer service call logging system",
+    "Online Polling System",
+    "Real Estate Property Search and Listings System",
+    "Email Composition and Delivery Platform",
+    "Driver Recruitment and Job Posting System",
+    "Global Institute of Information Security Course Enrollment Portal",
+    "Medical Journal Publishing and Access System"
+  ],
+  "application_types": [
+    "Dashboards",
+    "Entertainment App",
+    "Showcase Websites",
+    "Enterprise Management",
+    "Community Platforms",
+    "E-commerce Web",
+    "Productivity Tool",
+    "Job Search Platforms",
+    "Learning Platforms",
+    "Publishing Platforms"
+  ],
+  "models": [
+    "ds/deepseek-v4-pro"
+  ],
+  "evaluator_model": "ds/deepseek-v4-pro",
+  "base_url": "https://llm.xmcp.ltd/",
+  "runs": {
+    "aspect_aware_pro": {
+      "method": "aspect_aware",
+      "interviewer_model": "ds/deepseek-v4-pro",
+      "evaluator_model": "ds/deepseek-v4-pro",
+      "overall": {
+        "total_tasks": 10,
+        "total_requirements": 65,
+        "total_elicited": 17,
+        "total_elicitation_ratio": 0.26153846153846155,
+        "average_elicitation_ratio": 0.29255411255411257,
+        "average_tkqr": 0.3948947999972263,
+        "average_ora": 0.7071906801849472,
+        "average_rounds": 4.1
+      }
+    }
+  }
+}

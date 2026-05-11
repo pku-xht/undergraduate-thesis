@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ambig-swe-useful-info"
+version = "0.1.0"
+description = "Compare Direct and BED clarification for Ambig-SWE useful issue information recovery."
+readme = "Design.md"
+requires-python = ">=3.9"
+dependencies = [
+  "openai>=1.30.0",
+  "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+ambig-swe-useful-info = "ambig_swe_useful_info.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

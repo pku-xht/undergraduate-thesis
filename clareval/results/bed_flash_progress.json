@@ -1,0 +1,59 @@
+{
+  "status": "finished",
+  "metadata": {
+    "runner": "bed",
+    "backend": "openai",
+    "model": "ds/deepseek-v4-flash",
+    "simulator_model": "ds/deepseek-v4-flash",
+    "evaluator_model": "ds/deepseek-v4-pro",
+    "dataset": "clareval_multi_turn_30_clean.jsonl",
+    "max_turns": 6,
+    "num_hypotheses": 4,
+    "num_candidates": 4,
+    "concurrency": 1
+  },
+  "total": 30,
+  "done": 30,
+  "errors": 0,
+  "remaining": 0,
+  "elapsed_seconds": 7218.39,
+  "tasks_per_second": 0.0042,
+  "last_completed_task_id": null,
+  "averages": {
+    "completion_rate": 0.49388888888888893,
+    "atc": 3.6,
+    "efficiency": 1.0027777777777778,
+    "simulator_answered_count": 2.1666666666666665,
+    "simulator_answer_rate": 0.6972222222222222,
+    "unresolved_rate": 0.3
+  },
+  "by_task_group": {
+    "Ambiguous Terms / easy": {
+      "n": 10,
+      "completion_rate": 0.285,
+      "atc": 4.8,
+      "efficiency": 0.4666666666666666,
+      "simulator_answered_count": 2.6,
+      "simulator_answer_rate": 0.5916666666666666,
+      "unresolved_rate": 0.6
+    },
+    "Missing Goal / medium": {
+      "n": 10,
+      "completion_rate": 0.425,
+      "atc": 3.5,
+      "efficiency": 0.5833333333333333,
+      "simulator_answered_count": 2.3,
+      "simulator_answer_rate": 0.7166666666666666,
+      "unresolved_rate": 0.2
+    },
+    "Missing Premises / hard": {
+      "n": 10,
+      "completion_rate": 0.7716666666666667,
+      "atc": 2.5,
+      "efficiency": 1.9583333333333333,
+      "simulator_answered_count": 1.6,
+      "simulator_answer_rate": 0.7833333333333333,
+      "unresolved_rate": 0.1
+    }
+  }
+}
