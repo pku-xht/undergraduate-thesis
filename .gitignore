@@ -1,4 +1,5 @@
 # Private thesis and paper artifacts
+defense/
 thesis.docx
 ~$*.docx
 paper/
@@ -14,9 +15,11 @@ paper/
 *.fls
 *.lof
 *.log
+*.nav
 *.lot
 *.out
 *.run.xml
+*.snm
 *.synctex.gz
 *.toc
 
